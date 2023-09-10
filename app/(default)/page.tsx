@@ -8,7 +8,7 @@ import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 
-import Ml from '@/components/ml'
+//import Ml from '@/components/ml'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Zigzag />
-      <Ml />
+      {/*<Ml /> */} 
       <Newsletter />
       
     </>
